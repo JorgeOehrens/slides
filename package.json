@@ -1,0 +1,13 @@
+{
+  "name": "slides",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "open-slide dev",
+    "build": "open-slide build",
+    "preview": "open-slide preview"
+  },
+  "dependencies": {
+    "@open-slide/core": "^2.3.2"
+  }
+}
