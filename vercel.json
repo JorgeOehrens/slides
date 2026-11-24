@@ -1,1 +1,5 @@
-{ "rewrites": [{ "source": "/((?!assets/).*)", "destination": "/index.html" }] }
+{
+  "buildCommand": "pnpm build",
+  "outputDirectory": "dist",
+  "rewrites": [{ "source": "/((?!assets/).*)", "destination": "/index.html" }]
+}
